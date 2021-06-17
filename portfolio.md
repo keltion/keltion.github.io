@@ -22,28 +22,24 @@ font-weight:bold">
 
 ## Personal Data
 ---
-> 1995.11.4 대한민국,서울특별시,동작구 출생
+> 199.1월생 
 
-> 연락처: khw11044@gmail.com
+> 연락처: chattank05@gmail.com
 
-> Github : <a href="https://github.com/khw11044">https://github.com/khw11044</a>
+> Github : <a href="https://github.com/keltion">https://github.com/keltion</a>
 
 
 ## Education
 ---
-> Mar.2015 ~ Feb.2021 한성대학교
+> Mar.2019 ~ 단국대학교
 >
-> IT 융합공학부 (DIVISION OF IT CONVERGENCE ENGINEERING)
-
-> Feb.2021 ~ 현재 : 고려대학교
->
-> 인공지능 대학원 (이성한 교수님 연구실)
+> 소프트웨어학과
 
 
 ## Research Interest
 ---
 
-* Computer Vision
+<!-- * Computer Vision
     + image Object Detection
     + Vot
     + Semantic/Instance Segmentation
@@ -52,11 +48,11 @@ font-weight:bold">
 * Machine Learning / Deep Learning
     + GAN
     + Few-Shot Learning
-    + Meta Learning
+    + Meta Learning -->
 
 ## Project
 ---
-
+<!-- 
 * **Visual Object Tracking Using Plenoptic Image Sequences**
 
 과학기술정보통신부-한성대 프로젝트 : 학부생 인턴
@@ -119,7 +115,7 @@ Hansung Univ – ETRI
 【출원번호】: 10-2020-0080646
 
 【출원인】: 김현우, 김태현, 제진명
-
+ -->
 
 
 
