@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: GITHUBPAGE
-slug: githubpage
+title: Algorithm
+slug: Algorithm
 category: study
-menu: false
+menu: true
 order: 1
 ---
