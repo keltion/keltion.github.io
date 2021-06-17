@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title:  "개발을 위한 컴퓨터 세팅"
 subtitle:   "python,데이터 사이언티스트, 인공지능 개발자를 위함"
@@ -270,4 +270,4 @@ Edit in settings.json을 클릭한다.
 를 입력하여 세팅합니다.
 
 ![그림31](../../../../assets/img/etc/setting_start/setting04.png)
-터미널을 열면 바로 (base)가 뜨는것을 볼수 있습니다.
+터미널을 열면 바로 (base)가 뜨는것을 볼수 있습니다. -->

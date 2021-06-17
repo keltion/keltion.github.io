@@ -1,9 +1,9 @@
 ---
-layout: tag-blog
+layout: page
 title: OS
 slug: os
 category: class # 어느 메뉴 밑으로?
-menu: true
+menu: false
 order: 1
 ---
 os수업
