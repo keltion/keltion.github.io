@@ -10,19 +10,19 @@ order: 1
 <span style=
 "font-size:170%;
 font-weight:bold">
-김현우
+김주영
 </span>
 </center>
 
-<center>MAJOR : AI EENGINEERING</center>
+<center>MAJOR : Department of Software Engineering</center>
 
-<center>Korean University</center>
+# <center>Korean University</center>
 
-<center>145, Anam-ro, Seongbuk-gu, Seoul, Republic of Korea</center>
+# <center>145, Anam-ro, Seongbuk-gu, Seoul, Republic of Korea</center>
 
 ## Personal Data
 ---
-> 199.1월생 
+> 1월생 
 
 > 연락처: chattank05@gmail.com
 
