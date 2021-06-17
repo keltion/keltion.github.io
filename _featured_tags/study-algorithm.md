@@ -1,5 +1,5 @@
 ---
-layout: tag-blog
+layout: post
 title: Algorithm
 slug: algorithm
 category: study # 어느 메뉴 밑으로?
