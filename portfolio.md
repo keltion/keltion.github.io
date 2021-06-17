@@ -16,9 +16,9 @@ font-weight:bold">
 
 <center>MAJOR : Department of Software Engineering</center>
 
-# <center>Korean University</center>
+# Korean University
 
-# <center>145, Anam-ro, Seongbuk-gu, Seoul, Republic of Korea</center>
+# 145, Anam-ro, Seongbuk-gu, Seoul, Republic of Korea
 
 ## Personal Data
 ---

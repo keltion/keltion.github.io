@@ -2,7 +2,8 @@
 layout: tag-blog
 title: Algorithm
 slug: algorithm
-category: study
+category: study # 어느 메뉴 밑으로?
 menu: true
 order: 1
 ---
+algorithm 공부
