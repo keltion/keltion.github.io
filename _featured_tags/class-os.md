@@ -1,6 +1,6 @@
 ---
 layout: tag-blog
-title: OS
+title: OSzz
 slug: os
 category: class # 어느 메뉴 밑으로?
 menu: false
