@@ -13,7 +13,7 @@ keltion:
 
   # This photo will be used in the about section
   picture:
-    src:             
+    src:             /assets/img/cat.jpeg
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
       1x:            
