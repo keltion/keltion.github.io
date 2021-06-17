@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
 title: Algorithm
-slug: Algorithm
+slug: algorithm
 category: study
 menu: true
 order: 1
