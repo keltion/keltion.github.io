@@ -1,8 +1,8 @@
-<!-- ---
+---
 layout: list
-title: Algorithm
-slug: algorithm
+title: Chromium
+slug: chromium
 category: study # 어느 메뉴 밑으로?
 menu: false
-order: 1
---- -->
+order: 3
+---

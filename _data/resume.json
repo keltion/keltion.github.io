@@ -2,7 +2,7 @@
   "basics": {
     "name": "Juyoung Kim",
     "label": "Programmer",
-   "picture": "https://placehold.it/126x126",
+   "picture": "",
     "email": "chattank05@gmail.com",
     "phone": "(xx) xxx-xxxx",
     "website": "",
@@ -57,7 +57,7 @@
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
+      "institution": "",
       "area": "Information Technology",
       "studyType": "Bachelor",
       "startDate": "2011-06-01",

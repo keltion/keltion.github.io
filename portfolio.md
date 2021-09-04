@@ -15,8 +15,7 @@ font-weight:bold">
 <center>MAJOR : Department of Software Engineering</center>
 
 ## Personal Data
----
-> 1월생 
+--- 
 
 > 연락처: chattank05@gmail.com
 

@@ -13,12 +13,12 @@ url:                 https://keltion.github.io
 baseurl:             ""
 
 # A very short description of your page
-tagline:             "keltion 블로그"
+tagline:             ""
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  컴공생 일기
+  
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
@@ -51,10 +51,9 @@ disqus: True
 disqus_shortname:    xxxx
 
 # This text will appear in the footer of every page. Markdown enabled.
-copyright:           '&copy; 2020.12. by 따라쟁이'
+copyright:           '&copy; 2021.09. by keltion'
 
 # Format of the permalinks
-permalink:           
 
 # Pagination configuration (used by the `blog` layout)
 paginate:            3
