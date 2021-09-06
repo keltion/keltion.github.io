@@ -2,7 +2,7 @@
 layout: list
 title: Chromium
 slug: chromium
-category: study # 어느 메뉴 밑으로?
+category: opensource # 어느 메뉴 밑으로?
 menu: false
 order: 3
 ---
