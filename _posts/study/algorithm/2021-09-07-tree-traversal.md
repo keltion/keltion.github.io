@@ -1,6 +1,6 @@
 ---
-title: "[자료구조] binary tree traversal"
-layout: list
+title: "[코딩테스트] binary tree traversal"
+layout: post
 subtitle: tree
 categories: study
 tags: algorithm
