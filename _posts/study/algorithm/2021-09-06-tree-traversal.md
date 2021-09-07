@@ -1,5 +1,5 @@
 ---
-title: "[코딩테스트] binary tree traversal"
+title: "[Tree] binary tree traversal"
 layout: post
 subtitle: tree
 categories: study
