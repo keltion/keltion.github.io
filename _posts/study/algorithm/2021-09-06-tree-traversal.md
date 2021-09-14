@@ -8,6 +8,9 @@ comments: false
 ---
 
 오늘은 binary tree traversal을 구현해보았다. 순회 방법은 노드를 방문하는 순서에 따라 preorder, inorder, postorder로 나뉜다.
+추가적으로 level 순서대로 노드를 방문하는 level order도 구현했다.
+
+level order는 Queue에 있는 노드를 pop하면서 노드의 value값을 출력하고 left 자식노드, right 자식노드순으로 Queue에 넣는 작업을 반복하도록 하여 구현하였다. 
 
 ```c++
 //tree.h
@@ -26,6 +29,7 @@ public:
 void preorder(TreeNode *node);
 void inorder(TreeNode *node);
 void postorder(TreeNode *node);
+void levelorder(TreeNode *node);
 ````
 
 ```c++
@@ -75,6 +79,27 @@ void postorder(TreeNode *node)
     postorder(node->right);
     std::cout << node->Value << " ";
     return;
+}
+
+void levelorder(TreeNode *node)
+{
+    if(node == nullptr)
+    {
+        return;
+    }
+    std::queue<TreeNode*> nodes;
+    TreeNode* crnt_node;
+    nodes.emplace(node);
+    while(nodes.size()){
+        crnt_node = nodes.front();
+        std::cout << crnt_node->Value << " ";
+        nodes.pop();
+        if(crnt_node->left)
+            nodes.emplace(crnt_node->left);
+        if(crnt_node->right)
+            nodes.emplace(crnt_node->right);
+    }
+
 }
 ```
 
