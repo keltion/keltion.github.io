@@ -1,3 +1,12 @@
+---
+title: "[Chromium style guide] 스마트포인터"
+layout: post
+subtitle: smartpointer
+categories: opensource
+tags: chromium
+comments: false
+---
+
 (https://www.chromium.org/developers/smart-pointer-guidelines를 보고 번역하며 정리한 글입니다.)
 
 # smart pointer란 무엇인가?
