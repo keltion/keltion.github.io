@@ -1,10 +1,9 @@
 ---
-title: "[TREE] Next Right Pointer
-"
+title: "[Tree] Next Right Pointer"
 layout: post
 subtitle: tree
-categories: study
-tags: algorithm
+categories: codingtest
+tags: tree
 comments: false
 ---
 

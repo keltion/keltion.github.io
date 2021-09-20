@@ -2,7 +2,7 @@
 title: "[Chromium style guide] 스마트포인터"
 layout: post
 subtitle: smartpointer
-categories: opensource
+categories: project
 tags: chromium
 comments: false
 ---
