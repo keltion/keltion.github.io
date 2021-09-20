@@ -1,5 +1,5 @@
 ---
-title: "[Tree] Next Right Pointer"
+title: "[Tree] Validate Binary Search Tree"
 layout: post
 subtitle: tree
 categories: codingtest
@@ -7,7 +7,7 @@ tags: tree
 comments: false 
 ---
 
-# leetcod 98
+# leetcode 98
 입력되는 트리가 BST인지를 확인하고 맞다면 True를 아니라면 False를 반환해야하는 문제다.
 BST는 이진 트리에 이분하는 규칙을 추가한 트리이다. 이진트리가 다음 규칙을 만족하면 BST가된다.
 1. 왼쪽 자식은 언제나 부모보다 작다

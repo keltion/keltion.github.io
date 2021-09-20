@@ -7,7 +7,7 @@ tags: tree
 comments: false
 ---
 
-# leetcod 117
+# leetcode 117
 어떤 노드의 같은 레벨에 있는 오른쪽 노드를 가리키야한다. 즉 앞서 구현해본 levelorder를 이용하면 쉽게 구현할 수 있다.
 1. pre_node를 만들고 현재 노드를 가리키도록 하고 큐에 들어있는 현재 노드를 pop한다. 
 2. 현재 노드를 큐에 제일 먼저 들어온 노드로 업데이트 해준 뒤 pre_node의 next가 현재 노드를 가리키도록 한다.
