@@ -1,5 +1,5 @@
 ---
-title: "[graph] 미로 탐색"
+title: "[graph] 유기농 배추"
 layout: post
 subtitle: graph
 categories: codingtest
