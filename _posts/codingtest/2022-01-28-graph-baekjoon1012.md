@@ -17,14 +17,14 @@ count값을 올려주어 개수를 계산하였습니다.
 int loop;
 int y, x, n;
 
-std::array<std::array<int, 51>, 51> map;
-std::array<std::array<int, 51>, 51> seen;
+std::array<std::array<int, 50>, 50> map;
+std::array<std::array<int, 50>, 50> seen;
 std::stack<std::pair<int, int>> st;
 std::array<int, 4> dx = {0, 1, 0, -1};
 std::array<int, 4> dy = {1, 0, -1, 0};
 
 bool verify(int ny, int nx) {
-    return ny < 0 || ny > y || nx < 0 || nx > x;
+    return ny < 0 || ny >= y || nx < 0 || nx >= x;
 }
 
 void dfs(int y, int x) {
@@ -49,8 +49,8 @@ int main() {
     std::cout.tie(NULL);
     std::cin >> loop;
     while(loop--) {
-        std::fill(map.begin(), map.end(), std::array<int,51>());
-        std::fill(seen.begin(), seen.end(), std::array<int, 51>());
+        std::fill(map.begin(), map.end(), std::array<int,50>());
+        std::fill(seen.begin(), seen.end(), std::array<int, 50>());
         int count =0;
         std::cin >> x >> y >> n;
         for(int i=0; i<n; i++) {
@@ -75,3 +75,4 @@ int main() {
 ## 회고
 1. 이미 순회를 마친 connected component의 노드인지를 확인하는 조건문에 노드의 유무를 확인하지 않아 이상한 값이 나왔다.
 2. 노드 방문하고 seen값을 표시하지 않아 무한루프가 돌아갔다.
+3. verify()함수에서 최대값의 범위를 설정할 때 주의하자. 등호 꼭 신경쓰기.
