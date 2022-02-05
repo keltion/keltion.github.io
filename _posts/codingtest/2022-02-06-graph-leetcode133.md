@@ -1,5 +1,5 @@
 ---
-title: "[graph] Shortest Path in Binary Matrix"
+title: "[graph] Clone Graph"
 layout: post
 subtitle: graph
 categories: codingtest
