@@ -46,15 +46,16 @@ public:
     Node* dfs(Node* node) {
         Node* head = new Node(1);
         unordered_map<Node*, Node*> seen;
-        stack<pair<Node*, Node*>> st;
+        stack<Node*> st;
         
-        st.emplace(make_pair(node, head));
+        st.emplace(node);
         seen.emplace(node, head);
         
         while(!st.empty()) {
             Node* curr_rnode = nullptr;
             Node* curr_wnode = nullptr;
-            tie(curr_rnode, curr_wnode) = st.top();
+            curr_rnode = st.top();
+            curr_wnode = seen[curr_rnode];
             st.pop();
             for(auto* neighbor : curr_rnode->neighbors) {
                 if(seen.find(neighbor) != seen.end()) {
@@ -64,7 +65,7 @@ public:
                     Node* new_node = new Node(neighbor->val);
                     (curr_wnode->neighbors).emplace_back(new_node);
                     seen.emplace(neighbor, new_node);
-                    st.emplace(make_pair(neighbor, new_node));
+                    st.emplace(neighbor);
                 }
             }
         }
