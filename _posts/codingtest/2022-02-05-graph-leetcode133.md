@@ -7,13 +7,13 @@ tags: graph
 comments: false
 ---
 # leetcode 133
-graph를 Deep Copy하는 문제입니다. 현재 생성된 노드가 이전에 생성된 노드와 연결이 필요한 경우 이전에 생성된 노드에 대한 주소정보가 없어 이를 처리하는 것이 까다로웠습니다. 
-이를 해결해주기 위해서 "mapping"을 사용했습니다. 기존에 자료구조 set을 이용하여 방문노드를 표시하였는데 이번에는 map을 사용하여 위의 문제를 해결하였습니다.  
+graph를 Deep Copy하는 문제입니다. 현재 생성된 노드가 이전에 생성된 노드와 연결이 필요한 경우 이전에 생성된 노드에 대한 주소정보가 없어 이를 처리하는 것이 까다로웠습니다. 이를 해결해주기 위해서 "mapping"을 사용했습니다. 기존에 자료구조 set을 이용하여 방문노드를 표시하였는데 이번에는 map을 사용하여 위의 문제를 해결하였습니다.  
 
 ## complexity
 - Time complexity : O(v+e)
-- Space complexity : O(v)  
-```cpp
+- Space complexity : O(v)
+
+```cpp  
 /*
 // Definition for a Node.
 class Node {
