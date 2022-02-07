@@ -7,7 +7,7 @@ tags: graph
 comments: false
 ---
 # baekjoon 2252
-https://www.acmicpc.net/problem/2252  
+[문제 링크](https://www.acmicpc.net/problem/2252)  
 Topological Sort 문제입니다. 주어진 데이터로 그래프를 만들고 vertex를 순회하며 indegree를 표시하는 배열을 완성하였습니다. 이후에 indegree값이 0인 vertex들을 queue에 넣고 pop할 때 해당 vertex와 인접한 vertex들의 indegree값을 1씩 빼주었습니다. queue에 값이 존재하지 않을 때까지 반복적으로 위 작업을 진행하며 pop을 할 때 해당 vertex를 출력해주어 문제를 풀었습니다.
 
 ## complexity
