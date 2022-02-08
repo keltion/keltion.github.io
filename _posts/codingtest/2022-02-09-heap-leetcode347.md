@@ -1,5 +1,5 @@
 ---
-title: "[graph] Clone Graph"
+title: "[heap] Top K Frequent Elements"
 layout: post
 subtitle: heap
 categories: codingtest
@@ -8,7 +8,7 @@ comments: false
 ---
 # leetcode 347
 빈도가 높은 숫자들을 k개 골라 출력하는 문제입니다. heap을 이용하여 풀이하였습니다.  
- 
+
 ## complexity
 - Time complexity : O(n)
 - Space complexity : O(n)  
