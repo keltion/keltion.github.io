@@ -149,9 +149,6 @@ std::unique_ptr<Animal> Foo(std::unique_ptr<Animal> manimal) {
   // type of the function.
   }
 ```
-## 참조로 스마트 포인터를 전달하거나 반환하는 것은 어떤가요?
-그렇게 하지마세요!
-
 
 <!-- > unique_ptr 내부 할당자 그거 글쓰고
 > RVO 글 쓰기
