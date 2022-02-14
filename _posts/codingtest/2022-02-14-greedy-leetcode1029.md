@@ -13,7 +13,7 @@ comments: false
 ## complexity
 - time complexity : O(nlogn)
 - space complexity : O(1)
-
+  
 ```cpp
 class Solution {
 public:
@@ -36,6 +36,5 @@ public:
     }
 };
 ```
-
 ## 회고
 없음
